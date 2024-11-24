@@ -19,3 +19,31 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+body {
+  color: black !important;
+  background-color: white !important;
+}
+
+input, button, span {
+  color: inherit;
+  background-color: inherit;
+}
+
+button {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.bg-red-custom {
+  background-color: #f56565; 
+  color: white; 
+  padding: 0.3rem 1.2rem; 
+  border-radius: 0.175rem; 
+  transition: background-color 0.3s ease;
+}
+
+.bg-red-custom:hover {
+  background-color: #e53e3e; 
+}
+
